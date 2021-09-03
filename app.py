@@ -29,8 +29,8 @@ def hello():
 def get_api():
     return jsonify(data)
 
-@app.route('/hi')
-def hi():
+@app.route('/jubjub')
+def jubjub():
     return "สวัสดีค้าบวัยรุ่น"    
 
 if __name__ == "__main__":
